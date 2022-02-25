@@ -19,7 +19,7 @@ router.get('/:noteid', userAuth, noteController.getNote);
 router.put('/:noteid', userAuth, noteController.updateNote);
 
 //route to delete a single note by their user id
-router.delete('/:_id', noteController.deleteNote);
+router.delete('/:noteid', userAuth, noteController.deleteNote);
 
 
 export default router;

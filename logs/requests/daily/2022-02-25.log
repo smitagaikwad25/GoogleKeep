@@ -30,3 +30,5 @@ info: ::1 - - [25/Feb/2022:10:47:29 +0000] "PUT /api/v1/note/621612d4838731e208d
 
 info: ::1 - - [25/Feb/2022:10:47:41 +0000] "PUT /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 202 266 "-" "PostmanRuntime/7.28.4"
 
+info: ::1 - - [25/Feb/2022:10:56:21 +0000] "DELETE /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 200 55 "-" "PostmanRuntime/7.28.4"
+

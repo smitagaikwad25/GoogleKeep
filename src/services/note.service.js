@@ -1,3 +1,4 @@
+import { note } from '@hapi/joi/lib/base';
 import Note from '../models/note.model';
 
 //create new note
@@ -22,15 +23,23 @@ export const getNote = async (id) => {
 //update single note
 export const updateNote = async (_id, body) => {
     const data = await Note.findByIdAndUpdate(
-      {
-        _id
-      },
-      body,
-      {
-        new: true
-      }
+        {
+            _id
+        },
+        body,
+        {
+            new: true
+        }
     );
     return data;
-  };
+};
+
+//delete single user
+export const deleteNote = async (id) => {
+    await Note.findByIdAndDelete(id);
+    return '';
+};
+
+
 
 

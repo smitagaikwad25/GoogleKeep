@@ -79,9 +79,9 @@ export const updateNote = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
- export const deleteUser = async (req, res, next) => {
+ export const deleteNote = async (req, res, next) => {
     try {
-      await UserService.deleteUser(req.params._id);
+      await NoteService.deleteNote(req.params.noteid);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: [],
@@ -91,5 +91,11 @@ export const updateNote = async (req, res, next) => {
       next(error);
     }
   };
+
+  export const archieveNote = async(_id, noteData) => {
+    const data = await Note.findByIdAndUpdate({ _id}, {$set: {isArchieved: true},});noteData, {new: true,}
+    return data;
+}
+
   
 
