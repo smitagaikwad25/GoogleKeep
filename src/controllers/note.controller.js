@@ -79,20 +79,20 @@ export const updateNote = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
- export const deleteNote = async (req, res, next) => {
+export const deleteNote = async (req, res, next) => {
     try {
-      await NoteService.deleteNote(req.params.noteid);
-      res.status(HttpStatus.OK).json({
-        code: HttpStatus.OK,
-        data: [],
-        message: 'deleted successfully'
-      });
+        await NoteService.deleteNote(req.params.noteid);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: [],
+            message: 'deleted successfully'
+        });
     } catch (error) {
-      next(error);
+        next(error);
     }
-  };
+};
 
-  export const archiveNote = async (req, res, next) => {
+export const archiveNote = async (req, res, next) => {
     try {
         const data = await NoteService.archiveNote(req.params.noteid);
         res.status(HttpStatus.OK).json({
@@ -105,7 +105,20 @@ export const updateNote = async (req, res, next) => {
     }
 };
 
+export const trashNote = async (req, res, next) => {
+    try {
+        const data = await NoteService.trashNote(req.params.noteid);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'trashed successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
 
 
-  
+
+
 

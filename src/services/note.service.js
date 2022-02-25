@@ -1,4 +1,3 @@
-import { note } from '@hapi/joi/lib/base';
 import Note from '../models/note.model';
 
 //create new note
@@ -41,8 +40,15 @@ export const deleteNote = async (id) => {
 };
 
 // archeive
-export const archiveNote = async (_id, noteData) => {
+export const archiveNote = async (_id) => {
     const data = await Note.findByIdAndUpdate({ _id }, { "$set": { isArchived: true } })
+    return data;
+}
+
+
+// trashed
+export const trashNote = async (_id) => {
+    const data = await Note.findByIdAndUpdate({ _id }, { "$set": { isDeleted: true } })
     return data;
 }
 

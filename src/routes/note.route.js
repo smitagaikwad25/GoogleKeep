@@ -24,6 +24,13 @@ router.delete('/:noteid', userAuth, noteController.deleteNote);
 //route to archive note 
 router.put('/isarchive/:noteid', userAuth, noteController.archiveNote);
 
+//route to archive note 
+router.put('/isarchive/:noteid', userAuth, noteController.archiveNote);
+
+//route to archive note 
+router.put('/istrash/:noteid', userAuth, noteController.trashNote);
+
+
 
 
 

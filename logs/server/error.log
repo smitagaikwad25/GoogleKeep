@@ -1435,3 +1435,20 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2022-02-25T12:14:32.366Z"}
+error: 
+    status - 500 
+    message - TypeError: NoteService.trashNote is not a function
+    at _callee7$ (/home/smita/RegisterUser/userRegistrationNlogin/src/controllers/note.controller.js:110:40)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at trashNote (/home/smita/RegisterUser/userRegistrationNlogin/src/controllers/note.controller.js:108:23) 
+    url - /api/v1/note/istrash/6218ac4cf1dc033dab1be8a7 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-25T12:33:36.349Z"}
