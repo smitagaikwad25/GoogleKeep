@@ -6,3 +6,17 @@ info: ::1 - - [25/Feb/2022:10:17:05 +0000] "GET /api/v1/note HTTP/1.1" 500 76 "-
 
 info: ::1 - - [25/Feb/2022:10:17:33 +0000] "GET /api/v1/note HTTP/1.1" 200 1888 "-" "PostmanRuntime/7.28.4"
 
+info: ::1 - - [25/Feb/2022:10:29:43 +0000] "GET /api/v1/note?_id=6218ac4cf1dc033dab1be8a7 HTTP/1.1" 200 1888 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:29:52 +0000] "GET /api/v1/note?_id=6218ac4cf1dc033dab1be8a7 HTTP/1.1" 200 1888 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:29:53 +0000] "GET /api/v1/note?_id=6218ac4cf1dc033dab1be8a7 HTTP/1.1" 200 1888 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:30:01 +0000] "GET /api/v1/note?noteid=6218ac4cf1dc033dab1be8a7 HTTP/1.1" 200 1888 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:30:46 +0000] "GET /api/v1/note/6218ac4cf1dc033dab1be8a7 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:31:20 +0000] "GET /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:31:42 +0000] "GET /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 200 247 "-" "PostmanRuntime/7.28.4"
+

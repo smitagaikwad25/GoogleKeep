@@ -48,3 +48,9 @@ error:
    {"timestamp":"2022-02-25T10:17:05.503Z"}
 info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:17:29.045Z"}
 info: Connected to the database. {"timestamp":"2022-02-25T10:17:29.078Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:29:36.543Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:29:36.575Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:30:22.760Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:30:22.785Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:31:38.834Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:31:38.853Z"}

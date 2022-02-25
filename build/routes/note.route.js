@@ -26,6 +26,8 @@ var router = _express["default"].Router(); //route to create a new user
 
 router.post('', _user.noteValidator, _auth.userAuth, noteController.addNote); // route to get all notes
 
-router.get('', _auth.userAuth, noteController.getAllNotes);
+router.get('', _auth.userAuth, noteController.getAllNotes); //route to get a single note by their id
+
+router.get('/:_id', _auth.userAuth, noteController.getNote);
 var _default = router;
 exports["default"] = _default;
