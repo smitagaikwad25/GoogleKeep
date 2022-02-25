@@ -21,3 +21,16 @@ export const addNote = async (req, res, next) => {
     }
 };
 
+export const getAllNotes = async (req, res, next) => {
+  try {
+    const data = await NoteService.getAllNotes();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'fetched successfully'
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+

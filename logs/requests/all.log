@@ -934,3 +934,11 @@ info: ::1 - - [24/Feb/2022:13:28:33 +0000] "GET /api/v1/users/login HTTP/1.1" 20
 
 info: ::1 - - [24/Feb/2022:13:28:52 +0000] "GET /api/v1/users/login HTTP/1.1" 200 243 "-" "PostmanRuntime/7.28.4"
 
+info: ::1 - - [25/Feb/2022:10:15:40 +0000] "POST /api/v1/note HTTP/1.1" 201 286 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:15:50 +0000] "GET /api/v1/note HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:17:05 +0000] "GET /api/v1/note HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:17:33 +0000] "GET /api/v1/note HTTP/1.1" 200 1888 "-" "PostmanRuntime/7.28.4"
+

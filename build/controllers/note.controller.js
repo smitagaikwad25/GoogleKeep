@@ -7,7 +7,7 @@ var _typeof = require("@babel/runtime/helpers/typeof");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.addNote = void 0;
+exports.getAllNotes = exports.addNote = void 0;
 
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
@@ -20,44 +20,6 @@ var NoteService = _interopRequireWildcard(require("../services/note.service"));
 function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function _getRequireWildcardCache(nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-/**
- * Controller to get all users available
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-// export const getAllUsers = async (req, res, next) => {
-//   try {
-//     const data = await UserService.getAllUsers();
-//     res.status(HttpStatus.OK).json({
-//       code: HttpStatus.OK,
-//       data: data,
-//       message: 'All users fetched successfully'
-//     });
-//   } catch (error) {
-//     next(error);
-//   }
-// };
-
-/**
- * Controller to get a single user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-// export const getUser = async (req, res, next) => {
-//   try {
-//     const data = await UserService.getUser(req.params._id);
-//     res.status(HttpStatus.OK).json({
-//       code: HttpStatus.OK,
-//       data: data,
-//       message: 'User fetched successfully'
-//     });
-//   } catch (error) {
-//     next(error);
-//   }
-// };
 
 /**
  * Controller to create a new user
@@ -73,15 +35,7 @@ var addNote = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.prev = 0;
-            console.log(" before adding userid req body ---->", req.body); // let UserID = req.data.id;
-            // req.body.UserID = UserID;
-            // const noteDetails = {
-            //     Title: req.body.title,
-            //     description: req.body.description,
-            //     UserID: req.data.id,
-            //   };
-            // console.log(" before adding userid req body ---->", req.body)
-
+            req.body.UserID = req.body.data.id;
             _context.next = 4;
             return NoteService.addNote(req.body);
 
@@ -112,43 +66,46 @@ var addNote = /*#__PURE__*/function () {
     return _ref.apply(this, arguments);
   };
 }();
-/**
- * Controller to update a user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-// export const updateUser = async (req, res, next) => {
-//     try {
-//         const data = await UserService.updateUser(req.params._id, req.body);
-//         res.status(HttpStatus.ACCEPTED).json({
-//             code: HttpStatus.ACCEPTED,
-//             data: data,
-//             message: 'User updated successfully'
-//         });
-//     } catch (error) {
-//         next(error);
-//     }
-// };
-
-/**
- * Controller to delete a user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-// export const deleteUser = async (req, res, next) => {
-//     try {
-//         await UserService.deleteUser(req.params._id);
-//         res.status(HttpStatus.OK).json({
-//             code: HttpStatus.OK,
-//             data: [],
-//             message: 'User deleted successfully'
-//         });
-//     } catch (error) {
-//         next(error);
-//     }
-// };
-
 
 exports.addNote = addNote;
+
+var getAllNotes = /*#__PURE__*/function () {
+  var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(req, res, next) {
+    var data;
+    return _regenerator["default"].wrap(function _callee2$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            _context2.prev = 0;
+            _context2.next = 3;
+            return NoteService.getAllNotes();
+
+          case 3:
+            data = _context2.sent;
+            res.status(_httpStatusCodes["default"].OK).json({
+              code: _httpStatusCodes["default"].OK,
+              data: data,
+              message: 'fetched successfully'
+            });
+            _context2.next = 10;
+            break;
+
+          case 7:
+            _context2.prev = 7;
+            _context2.t0 = _context2["catch"](0);
+            next(_context2.t0);
+
+          case 10:
+          case "end":
+            return _context2.stop();
+        }
+      }
+    }, _callee2, null, [[0, 7]]);
+  }));
+
+  return function getAllNotes(_x4, _x5, _x6) {
+    return _ref2.apply(this, arguments);
+  };
+}();
+
+exports.getAllNotes = getAllNotes;

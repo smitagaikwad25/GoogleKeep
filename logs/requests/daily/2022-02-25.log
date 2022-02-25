@@ -1,0 +1,8 @@
+info: ::1 - - [25/Feb/2022:10:15:40 +0000] "POST /api/v1/note HTTP/1.1" 201 286 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:15:50 +0000] "GET /api/v1/note HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:17:05 +0000] "GET /api/v1/note HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:17:33 +0000] "GET /api/v1/note HTTP/1.1" 200 1888 "-" "PostmanRuntime/7.28.4"
+
