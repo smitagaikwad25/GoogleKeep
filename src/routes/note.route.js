@@ -18,4 +18,8 @@ router.get('/:noteid', userAuth, noteController.getNote);
 //route to update a single note by their user id
 router.put('/:noteid', userAuth, noteController.updateNote);
 
+//route to delete a single note by their user id
+router.delete('/:_id', noteController.deleteNote);
+
+
 export default router;

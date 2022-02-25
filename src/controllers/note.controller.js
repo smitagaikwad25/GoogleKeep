@@ -47,7 +47,7 @@ export const getNote = async (req, res, next) => {
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,
-            message: 'User fetched successfully'
+            message: 'fetched successfully'
         });
     } catch (error) {
         next(error);
@@ -55,7 +55,7 @@ export const getNote = async (req, res, next) => {
 };
 
 /**
- * Controller to update a user
+ * Controller to update a note
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next
@@ -66,10 +66,30 @@ export const updateNote = async (req, res, next) => {
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             data: data,
-            message: 'User updated successfully'
+            message: 'updated successfully'
         });
     } catch (error) {
         next(error);
     }
 };
+
+/**
+ * Controller to delete a note
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const deleteUser = async (req, res, next) => {
+    try {
+      await UserService.deleteUser(req.params._id);
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: [],
+        message: 'deleted successfully'
+      });
+    } catch (error) {
+      next(error);
+    }
+  };
+  
 
