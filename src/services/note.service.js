@@ -40,6 +40,13 @@ export const deleteNote = async (id) => {
     return '';
 };
 
+// archeive
+export const archiveNote = async (_id, noteData) => {
+    const data = await Note.findByIdAndUpdate({ _id }, { "$set": { isArchived: true } })
+    return data;
+}
+
+
 
 
 

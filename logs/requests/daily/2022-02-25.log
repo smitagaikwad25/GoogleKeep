@@ -32,3 +32,35 @@ info: ::1 - - [25/Feb/2022:10:47:41 +0000] "PUT /api/v1/note/621612d4838731e208d
 
 info: ::1 - - [25/Feb/2022:10:56:21 +0000] "DELETE /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 200 55 "-" "PostmanRuntime/7.28.4"
 
+info: ::1 - - [25/Feb/2022:12:12:42 +0000] "PUT /api/v1/note/isarchive/621612d4838731e208d1edf0 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:13:11 +0000] "PUT /api/v1/note/isarchive/621612d4838731e208d1edf0 HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:14:32 +0000] "PUT /api/v1/note/isarchive/621612d4838731e208d1edf0 HTTP/1.1" 500 76 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:15:24 +0000] "PUT /api/v1/note/isarchive/621612d4838731e208d1edf0 HTTP/1.1" 200 57 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:16:19 +0000] "PUT /api/v1/note/isarchive/621612d4838731e208d1edf0 HTTP/1.1" 200 58 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:17:26 +0000] "PUT /api/v1/note/isarchive/621612d4838731e208d1edf0 HTTP/1.1" 200 58 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:17:37 +0000] "GET /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 200 57 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:18:01 +0000] "GET /api/v1/note?_id=6218ac4cf1dc033dab1be8a7 HTTP/1.1" 200 1698 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:18:21 +0000] "GET /api/v1/note?_id=6218ac4cf1dc033dab1be8a7 HTTP/1.1" 200 1698 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:18:53 +0000] "PUT /api/v1/note/isarchive/621612d4838731e208d1edf0 HTTP/1.1" 200 58 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:19:00 +0000] "GET /api/v1/note?_id=6218ac4cf1dc033dab1be8a7 HTTP/1.1" 200 1698 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:19:07 +0000] "GET /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 200 57 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:19:08 +0000] "GET /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 200 57 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:23:07 +0000] "PUT /api/v1/note/isarchive/621612d4838731e208d1edf0 HTTP/1.1" 200 58 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:24:43 +0000] "PUT /api/v1/note/isarchive/6218ac4cf1dc033dab1be8a7 HTTP/1.1" 200 287 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:12:25:29 +0000] "PUT /api/v1/note/isarchive/6218ac4cf1dc033dab1be8a7 HTTP/1.1" 200 305 "-" "PostmanRuntime/7.28.4"
+

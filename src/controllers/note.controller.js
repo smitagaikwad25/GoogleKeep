@@ -92,10 +92,20 @@ export const updateNote = async (req, res, next) => {
     }
   };
 
-  export const archieveNote = async(_id, noteData) => {
-    const data = await Note.findByIdAndUpdate({ _id}, {$set: {isArchieved: true},});noteData, {new: true,}
-    return data;
-}
+  export const archiveNote = async (req, res, next) => {
+    try {
+        const data = await NoteService.archiveNote(req.params.noteid);
+        res.status(HttpStatus.OK).json({
+            code: HttpStatus.OK,
+            data: data,
+            message: 'archived successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+
 
   
 
