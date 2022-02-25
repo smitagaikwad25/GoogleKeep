@@ -8,4 +8,6 @@ router.post('', newUserValidator, userController.userRegistration);
 
 router.get('/login', userController.userLogin);
 
+
+
 export default router;
