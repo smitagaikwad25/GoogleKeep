@@ -1628,3 +1628,61 @@ info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T1
 info: Connected to the database. {"timestamp":"2022-02-25T10:30:22.785Z"}
 info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:31:38.834Z"}
 info: Connected to the database. {"timestamp":"2022-02-25T10:31:38.853Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:45:42.666Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:45:42.693Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee4$ (/home/smita/RegisterUser/userRegistrationNlogin/src/controllers/note.controller.js:63:27)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at updateNote (/home/smita/RegisterUser/userRegistrationNlogin/src/controllers/note.controller.js:63:24) 
+    url - /api/v1/note/621612d4838731e208d1edf0 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-25T10:45:48.754Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserService is not defined
+    at _callee4$ (/home/smita/RegisterUser/userRegistrationNlogin/src/controllers/note.controller.js:63:27)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at updateNote (/home/smita/RegisterUser/userRegistrationNlogin/src/controllers/note.controller.js:63:24) 
+    url - /api/v1/note/621612d4838731e208d1edf0 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-25T10:46:12.509Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:46:18.128Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:46:18.150Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:46:22.419Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:46:22.450Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/621612d4838731e208d1edf0 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-25T10:46:25.276Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:47:23.673Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:47:23.699Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:47:47.980Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:47:48.004Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T10:49:06.642Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T10:49:06.666Z"}

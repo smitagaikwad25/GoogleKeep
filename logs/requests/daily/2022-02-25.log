@@ -20,3 +20,13 @@ info: ::1 - - [25/Feb/2022:10:31:20 +0000] "GET /api/v1/note/621612d4838731e208d
 
 info: ::1 - - [25/Feb/2022:10:31:42 +0000] "GET /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 200 247 "-" "PostmanRuntime/7.28.4"
 
+info: ::1 - - [25/Feb/2022:10:45:48 +0000] "PUT /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 500 61 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:46:12 +0000] "PUT /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 500 61 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:46:25 +0000] "PUT /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 500 160 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:47:29 +0000] "PUT /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 202 264 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [25/Feb/2022:10:47:41 +0000] "PUT /api/v1/note/621612d4838731e208d1edf0 HTTP/1.1" 202 266 "-" "PostmanRuntime/7.28.4"
+

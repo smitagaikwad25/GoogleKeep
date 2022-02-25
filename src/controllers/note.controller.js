@@ -54,3 +54,22 @@ export const getNote = async (req, res, next) => {
     }
 };
 
+/**
+ * Controller to update a user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const updateNote = async (req, res, next) => {
+    try {
+        const data = await NoteService.updateNote(req.params.noteid, req.body);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'User updated successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
