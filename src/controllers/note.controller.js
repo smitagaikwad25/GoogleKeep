@@ -1,0 +1,23 @@
+import HttpStatus from 'http-status-codes';
+import * as NoteService from '../services/note.service';
+
+/**
+ * Controller to create a new user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const addNote = async (req, res, next) => {
+    try {
+        req.body.UserID = req.body.data.id;
+        const data = await NoteService.addNote(req.body);
+        res.status(HttpStatus.CREATED).json({
+            code: HttpStatus.CREATED,
+            data: data,
+            message: 'created successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+

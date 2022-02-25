@@ -1,0 +1,68 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T02:55:13.720Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T02:55:13.752Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parse (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:224:16)
+    at done (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:475:12)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:22:05.538Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at parse (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:224:16)
+    at done (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:475:12)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:22:14.292Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:48:40.099Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:48:40.446Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:49:32.788Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:49:32.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:51:26.599Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:51:26.643Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:52:39.026Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:52:39.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:53:06.800Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:53:06.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:53:30.989Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:53:31.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:54:56.343Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:54:56.366Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T03:55:08.807Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T03:55:08.834Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of null
+    at _callee3$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/user.service.js:24:32)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-22T03:55:25.126Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T04:00:15.123Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T04:00:15.146Z"}
