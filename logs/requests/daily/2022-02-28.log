@@ -22,3 +22,35 @@ info: ::1 - - [27/Feb/2022:20:22:02 +0000] "POST /api/v1/users/forgotpassword HT
 
 info: ::1 - - [28/Feb/2022:03:10:36 +0000] "POST /api/v1/users/forgotpassword HTTP/1.1" 200 61 "-" "PostmanRuntime/7.28.4"
 
+info: ::1 - - [28/Feb/2022:09:57:49 +0000] "POST /api/v1/users HTTP/1.1" 500 56 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:09:58:02 +0000] "POST /api/v1/users HTTP/1.1" 201 317 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:09:59:00 +0000] "POST /api/v1/users/forgotpassword/ HTTP/1.1" 200 61 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:01:51 +0000] "GET /api/v1/users/login HTTP/1.1" 200 247 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:03:03 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:03:09 +0000] "GET /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:03:32 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:04:03 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:04:13 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:04:21 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:05:10 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:06:32 +0000] "POST /api/v1/users/resetpassword HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:06:43 +0000] "POST /api/v1/users/resetpassword/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:07:33 +0000] "POST /api/v1/users/reset HTTP/1.1" 500 67 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:08:58 +0000] "POST /api/v1/users/reset HTTP/1.1" 200 333 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [28/Feb/2022:10:09:48 +0000] "POST /api/v1/users/reset HTTP/1.1" 200 59 "-" "PostmanRuntime/7.28.4"
+

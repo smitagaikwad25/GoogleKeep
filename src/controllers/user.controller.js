@@ -71,6 +71,33 @@ export const forgotpassword = async (req, res, next) => {
 }
 
 
+/**
+ * Controller to  login a user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const resetPassword = async (req, res, next) => {
+  try {
+    const userCredential = {
+      password: req.body.password,
+      UserID: req.body.data.id
+    };
+    const data = await UserService.resetPassword(userCredential);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      message: "reset Password is sucessfully done"
+    });
+
+  } catch (error) {
+    next(error);
+
+  }
+
+}
+
+
 
 
 

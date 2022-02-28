@@ -61,3 +61,89 @@ info: Connected to the database. {"timestamp":"2022-02-28T03:38:26.201Z"}
 info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T04:00:01.217Z"}
 info: Connected to the database. {"timestamp":"2022-02-28T04:00:01.288Z"}
 info: Connected to the database. {"timestamp":"2022-02-28T04:00:01.627Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T09:41:12.728Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:41:12.773Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T09:42:37.916Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:42:37.986Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T09:44:34.512Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:44:34.593Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T09:44:44.029Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:44:44.075Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T09:45:45.003Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:45:45.089Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T09:52:33.844Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:52:33.918Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T09:52:55.981Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:52:56.032Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T09:56:22.210Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:56:22.267Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T09:57:05.174Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:57:05.231Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T09:57:35.327Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:57:35.354Z"}
+error: 
+    status - 500 
+    message - Error: "fName" is required
+    at new exports.ValidationError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@hapi/joi/lib/errors.js:246:9)
+    at Object.exports.process (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@hapi/joi/lib/errors.js:189:29)
+    at Object.internals.entry (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@hapi/joi/lib/validator.js:140:26)
+    at Object.exports.entry (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@hapi/joi/lib/validator.js:26:30)
+    at internals.Base.validate (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@hapi/joi/lib/base.js:534:26)
+    at newUserValidator (/home/smita/RegisterUser/userRegistrationNlogin/src/validators/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/router/route.js:137:13) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:57:49.014Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:224:16)
+    at done (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:475:12)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/forgotpassword/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:58:54.104Z"}
+info: undefined {"accepted":["yohoc89761@submic.com"],"envelope":{"from":"gaikwadsmita021@gmail.com","to":["yohoc89761@submic.com"]},"envelopeTime":1595,"messageId":"<8e88c847-55c8-f895-d76c-5b7c8e85fa97@gmail.com>","messageSize":638,"messageTime":1261,"rejected":[],"response":"250 2.0.0 OK  1646042344 n34-20020a056a000d6200b004e1ba1016absm13011856pfv.31 - gsmtp","timestamp":"2022-02-28T09:59:04.122Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T10:03:58.933Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:03:58.956Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T10:06:12.211Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:06:12.239Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T10:07:09.858Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:07:09.902Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:07:10.107Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T10:07:29.900Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:07:29.925Z"}
+error: 
+    status - 500 
+    message - Error: data and salt arguments required
+    at Object.hash (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/bcrypt/bcrypt.js:137:17)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/bcrypt/promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/bcrypt/promises.js:20:12)
+    at Object.hash (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/bcrypt/bcrypt.js:133:25)
+    at _callee4$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/user.service.js:48:32)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22) 
+    url - /api/v1/users/reset 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:07:33.359Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T10:08:25.718Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:08:25.819Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:08:26.071Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T10:08:55.335Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:08:55.362Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T10:09:42.067Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:09:42.119Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2022-02-28T10:10:00.826Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:10:00.878Z"}
