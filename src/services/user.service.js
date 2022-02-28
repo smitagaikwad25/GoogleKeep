@@ -1,6 +1,7 @@
 import User from '../models/user.model';
 import bcrypt from "bcrypt";
 import jwt from 'jsonwebtoken';
+import { mailSend } from '../utils/helper';
 
 //create new user
 export const userRegistration = async (body) => {
@@ -22,6 +23,19 @@ export const login = async (body) => {
     } else {
       throw new Error('password doesnt match');
     }
+  } else {
+    throw new Error('email id doesnt match');
+
+  }
+};
+
+
+export const forgotpassword = async (body) => {
+  const searchData = await User.findOne({ email: body.email });
+  if (body.email == searchData.email) {
+    const token = jwt.sign({ "email": searchData.email, "id": searchData._id }, process.env.SECRET_KEY)
+    const sendingEmail = mailSend(searchData.email, token)
+    return sendingEmail;
   } else {
     throw new Error('email id doesnt match');
 

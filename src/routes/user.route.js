@@ -8,4 +8,6 @@ router.post('', newUserValidator, userController.userRegistration);
 
 router.get('/login', userController.userLogin);
 
+router.post('/forgotpassword', userController.forgotpassword)
+
 export default router;

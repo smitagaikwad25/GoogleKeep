@@ -54,6 +54,24 @@ export const userLogin = async (req, res, next) => {
 }
 
 
+export const forgotpassword = async (req, res, next) => {
+  try {
+    const data = await UserService.forgotpassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "reset password link sent sucessfully"
+    })
+
+  } catch (error) {
+    next(error);
+
+  }
+
+}
+
+
+
 
 
 

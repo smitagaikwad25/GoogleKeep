@@ -195,3 +195,112 @@ info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T1
 info: Connected to the database. {"timestamp":"2022-02-25T12:35:30.736Z"}
 info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T12:36:33.633Z"}
 info: Connected to the database. {"timestamp":"2022-02-25T12:36:33.666Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T13:25:25.675Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:25:25.704Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T13:26:34.632Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:26:34.659Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T13:30:58.038Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:30:58.065Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 52
+    at JSON.parse (<anonymous>)
+    at parse (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/body-parser/lib/types/json.js:89:19)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/body-parser/lib/read.js:121:18
+    at invokeCallback (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:224:16)
+    at done (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:213:7)
+    at IncomingMessage.onEnd (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/raw-body/index.js:273:7)
+    at IncomingMessage.emit (events.js:412:35)
+    at IncomingMessage.emit (domain.js:475:12)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21) 
+    url - /api/v1/users/forgotpassword 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-25T13:31:46.833Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T13:32:26.670Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:32:26.696Z"}
+error: 
+    status - 500 
+    message - ReferenceError: mailSend is not defined
+    at _callee3$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/user.service.js:36:11)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-25T13:32:40.188Z"}
+error: 
+    status - 500 
+    message - ReferenceError: mailSend is not defined
+    at _callee3$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/user.service.js:36:11)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-25T13:32:50.158Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T13:34:40.260Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:34:40.280Z"}
+error: 
+    status - 500 
+    message - ReferenceError: SearchMai is not defined
+    at _callee3$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/user.service.js:37:35)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-25T13:34:41.707Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T13:35:12.573Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:35:12.591Z"}
+error: 
+    status - 500 
+    message - ReferenceError: SENDE_ID is not defined
+    at mailSend (/home/smita/RegisterUser/userRegistrationNlogin/src/utils/helper.js:9:23)
+    at _callee3$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/user.service.js:37:26)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-25T13:35:15.730Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T13:35:44.089Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:35:44.118Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T13:35:54.085Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:35:54.106Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T13:36:08.172Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:36:08.199Z"}
+error: 
+    status - 500 
+    message - ReferenceError: transporter is not defined
+    at mailSend (/home/smita/RegisterUser/userRegistrationNlogin/src/utils/helper.js:21:5)
+    at _callee3$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/user.service.js:37:26)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/forgotpassword 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-25T13:36:13.734Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-02-25T13:36:37.603Z"}
+info: Connected to the database. {"timestamp":"2022-02-25T13:36:37.634Z"}
