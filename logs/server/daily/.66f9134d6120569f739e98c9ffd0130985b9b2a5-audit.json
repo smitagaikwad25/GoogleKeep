@@ -39,6 +39,11 @@
             "date": 1645991894238,
             "name": "logs/server/daily/2022-02-28.log",
             "hash": "8272042bdd6b0cd231c39466c8443ebb"
+        },
+        {
+            "date": 1646190853195,
+            "name": "logs/server/daily/2022-03-02.log",
+            "hash": "3f8434bc9cdc4b15824836d63f902e59"
         }
     ],
     "hashType": "md5"
