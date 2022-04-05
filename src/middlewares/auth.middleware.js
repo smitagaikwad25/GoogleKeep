@@ -14,9 +14,10 @@ export const userAuth = async (req, res, next) => {
     let bearerToken = req.header('Authorization');
 
     console.log("bearerToken befor spliting----->", bearerToken)
+
     if (!bearerToken)
       throw {
-        code: HttpStatus.BAD_REQUEST,
+        code: HttpStatus.UNAUTHORIZED,
         message: 'Authorization token is required'
       };
 
@@ -30,8 +31,9 @@ export const userAuth = async (req, res, next) => {
           message: 'Authorization token incorrect'
         };
       } else {
-        console.log("after varification ---->", verifiedToken)
-        req.body['data'] = verifiedToken;
+        // console.log("after varification ---->", verifiedToken)
+        // req.body['data'] = verifiedToken;
+        req.body.UserID = verifiedToken.id
         next();
       }
     }

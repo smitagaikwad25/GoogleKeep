@@ -2154,3 +2154,686 @@ Error: EIO: i/o error, write
     at writeOrBuffer (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)
     at Console.Writable.write (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)
     at DerivedLogger.ondata (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20) {"date":"Mon Feb 28 2022 17:31:45 GMT+0530 (India Standard Time)","error":{"code":"EIO","errno":-5,"syscall":"write"},"exception":true,"os":{"loadavg":[1.66,0.95,1.68],"uptime":206552.35},"process":{"argv":["node","/home/smita/RegisterUser/userRegistrationNlogin/src/index.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18529650,"external":20791604,"heapTotal":83705856,"heapUsed":58508672,"rss":132276224},"pid":51198,"uid":1000,"version":"v14.19.0"},"stack":"Error: EIO: i/o error, write\n    at writeSync (fs.js:736:3)\n    at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)\n    at writeOrBuffer (internal/streams/writable.js:358:12)\n    at SyncWriteStream.Writable.write (internal/streams/writable.js:303:10)\n    at Console.log (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston/lib/winston/transports/console.js:79:23)\n    at Console._write (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston-transport/index.js:82:19)\n    at doWrite (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:409:139)\n    at writeOrBuffer (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:398:5)\n    at Console.Writable.write (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js:307:11)\n    at DerivedLogger.ondata (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js:681:20)","timestamp":"2022-02-28T12:01:45.577Z","trace":[{"column":3,"file":"fs.js","function":"writeSync","line":736,"method":null,"native":false},{"column":3,"file":"internal/fs/sync_write_stream.js","function":"SyncWriteStream._write","line":24,"method":"_write","native":false},{"column":12,"file":"internal/streams/writable.js","function":"writeOrBuffer","line":358,"method":null,"native":false},{"column":10,"file":"internal/streams/writable.js","function":"SyncWriteStream.Writable.write","line":303,"method":"write","native":false},{"column":23,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston/lib/winston/transports/console.js","function":"Console.log","line":79,"method":"log","native":false},{"column":19,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston-transport/index.js","function":"Console._write","line":82,"method":"_write","native":false},{"column":139,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"doWrite","line":409,"method":null,"native":false},{"column":5,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"writeOrBuffer","line":398,"method":null,"native":false},{"column":11,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston-transport/node_modules/readable-stream/lib/_stream_writable.js","function":"Console.Writable.write","line":307,"method":"write","native":false},{"column":20,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/winston/node_modules/readable-stream/lib/_stream_readable.js","function":"DerivedLogger.ondata","line":681,"method":"ondata","native":false}]}
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:41:46)
+    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Wed Mar 02 2022 23:24:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.99,1.76,1.4],"uptime":20842.12},"process":{"argv":["/usr/bin/node","/home/smita/RegisterUser/userRegistrationNlogin/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18431285,"external":20111827,"heapTotal":155942912,"heapUsed":125876200,"rss":205357056},"pid":13599,"uid":1000,"version":"v14.19.0"},"stack":"ReferenceError: HttpStatus is not defined\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:41:46)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-03-02T17:54:23.227Z","trace":[{"column":46,"file":"/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1677,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "fName" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-02T17:55:10.020Z"}
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:57:46)
+    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Wed Mar 02 2022 23:25:10 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.04,1.81,1.43],"uptime":20888.94},"process":{"argv":["/usr/bin/node","/home/smita/RegisterUser/userRegistrationNlogin/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18352873,"external":20033415,"heapTotal":156205056,"heapUsed":124566904,"rss":204369920},"pid":13757,"uid":1000,"version":"v14.19.0"},"stack":"ReferenceError: HttpStatus is not defined\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:57:46)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-03-02T17:55:10.044Z","trace":[{"column":46,"file":"/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js","function":null,"line":57,"method":null,"native":false},{"column":6,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1677,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "fName" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-02T18:00:18.867Z"}
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:42:46)
+    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Mar 03 2022 09:20:42 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[4.9,3.54,2.94],"uptime":56621.96},"process":{"argv":["/usr/bin/node","/home/smita/RegisterUser/userRegistrationNlogin/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18387694,"external":20068236,"heapTotal":155680768,"heapUsed":124962744,"rss":202969088},"pid":18690,"uid":1000,"version":"v14.19.0"},"stack":"ReferenceError: HttpStatus is not defined\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:42:46)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-03-03T03:50:43.621Z","trace":[{"column":46,"file":"/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1677,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:42:46)
+    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Mar 03 2022 09:26:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[4.43,4.13,3.37],"uptime":56949.55},"process":{"argv":["/usr/bin/node","/home/smita/RegisterUser/userRegistrationNlogin/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18387694,"external":20068236,"heapTotal":155418624,"heapUsed":124903984,"rss":203051008},"pid":19129,"uid":1000,"version":"v14.19.0"},"stack":"ReferenceError: HttpStatus is not defined\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:42:46)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-03-03T03:56:11.210Z","trace":[{"column":46,"file":"/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1677,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:42:46)
+    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Mar 03 2022 09:31:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[3.48,3.59,3.34],"uptime":57249.99},"process":{"argv":["/usr/bin/node","/home/smita/RegisterUser/userRegistrationNlogin/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18387694,"external":20068236,"heapTotal":155418624,"heapUsed":124846648,"rss":202088448},"pid":19564,"uid":1000,"version":"v14.19.0"},"stack":"ReferenceError: HttpStatus is not defined\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:42:46)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-03-03T04:01:11.651Z","trace":[{"column":46,"file":"/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1677,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T12:31:01.929Z"}
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:42:46)
+    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Mar 03 2022 18:01:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.45,1.03,1.23],"uptime":3109.24},"process":{"argv":["/usr/bin/node","/home/smita/RegisterUser/userRegistrationNlogin/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18387694,"external":20068236,"heapTotal":155680768,"heapUsed":124739312,"rss":203186176},"pid":5159,"uid":1000,"version":"v14.19.0"},"stack":"ReferenceError: HttpStatus is not defined\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:42:46)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-03-03T12:31:40.186Z","trace":[{"column":46,"file":"/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1677,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: HttpStatus is not defined
+ReferenceError: HttpStatus is not defined
+    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:42:46)
+    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Thu Mar 03 2022 18:01:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.67,1.1,1.25],"uptime":3127.53},"process":{"argv":["/usr/bin/node","/home/smita/RegisterUser/userRegistrationNlogin/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18387694,"external":20068236,"heapTotal":155680768,"heapUsed":124747712,"rss":205893632},"pid":5285,"uid":1000,"version":"v14.19.0"},"stack":"ReferenceError: HttpStatus is not defined\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:42:46)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-03-03T12:31:58.474Z","trace":[{"column":46,"file":"/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js","function":null,"line":42,"method":null,"native":false},{"column":6,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1677,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-03T12:40:03.840Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T03:59:41.972Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:84:40)
+    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Fri Mar 04 2022 09:29:41 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:84:40)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[3.09,2.9,2.88],"uptime":58791.2},"process":{"argv":["/usr/bin/node","/home/smita/RegisterUser/userRegistrationNlogin/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18441042,"external":20121584,"heapTotal":141930496,"heapUsed":109709808,"rss":189366272},"pid":12817,"uid":1000,"version":"v14.19.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:84:40)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-03-04T03:59:42.146Z","trace":[{"column":40,"file":"/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js","function":null,"line":84,"method":null,"native":false},{"column":6,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1677,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T04:01:42.392Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:84:40)
+    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Fri Mar 04 2022 09:31:42 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:84:40)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[2.88,3.02,2.94],"uptime":58911.48},"process":{"argv":["/usr/bin/node","/home/smita/RegisterUser/userRegistrationNlogin/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18431575,"external":20112117,"heapTotal":170299392,"heapUsed":140405624,"rss":219459584},"pid":13022,"uid":1000,"version":"v14.19.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:84:40)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-03-04T04:01:42.427Z","trace":[{"column":40,"file":"/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js","function":null,"line":84,"method":null,"native":false},{"column":6,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1677,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:84:40)
+    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)
+    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)
+    at Object.onceWrapper (events.js:519:28)
+    at Server.emit (events.js:400:28)
+    at emitCloseNT (net.js:1677:8)
+    at processTicksAndRejections (internal/process/task_queues.js:81:21) {"date":"Fri Mar 04 2022 09:32:26 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:84:40)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)"},"exception":true,"os":{"loadavg":[3.14,3.07,2.96],"uptime":58955.92},"process":{"argv":["/usr/bin/node","/home/smita/RegisterUser/userRegistrationNlogin/node_modules/.bin/mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/integration/user.test.js","tests/unit/user.test.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18429770,"external":20110312,"heapTotal":170561536,"heapUsed":140180512,"rss":218644480},"pid":13144,"uid":1000,"version":"v14.19.0"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js:84:40)\n    at Test.assert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:181:6)\n    at Server.localAssert (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js:131:12)\n    at Object.onceWrapper (events.js:519:28)\n    at Server.emit (events.js:400:28)\n    at emitCloseNT (net.js:1677:8)\n    at processTicksAndRejections (internal/process/task_queues.js:81:21)","timestamp":"2022-03-04T04:02:26.864Z","trace":[{"column":40,"file":"/home/smita/RegisterUser/userRegistrationNlogin/tests/integration/user.test.js","function":null,"line":84,"method":null,"native":false},{"column":6,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/supertest/lib/test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"events.js","function":"Object.onceWrapper","line":519,"method":"onceWrapper","native":false},{"column":28,"file":"events.js","function":"Server.emit","line":400,"method":"emit","native":false},{"column":8,"file":"net.js","function":"emitCloseNT","line":1677,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T04:04:29.517Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/src/index.js:44:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Mon Mar 07 2022 17:12:06 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[4.58,3.3,2.17],"uptime":33181.56},"process":{"argv":["node","/home/smita/RegisterUser/userRegistrationNlogin/src/index.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18432599,"external":20693585,"heapTotal":156999680,"heapUsed":134207208,"rss":209539072},"pid":23663,"uid":1000,"version":"v14.19.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/src/index.js:44:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-03-07T11:42:06.527Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/smita/RegisterUser/userRegistrationNlogin/src/index.js","function":null,"line":44,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/src/index.js:44:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Mon Mar 07 2022 17:13:09 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[3.19,3.17,2.2],"uptime":33244.29},"process":{"argv":["node","/home/smita/RegisterUser/userRegistrationNlogin/src/index.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18440791,"external":20701777,"heapTotal":157523968,"heapUsed":134187264,"rss":210612224},"pid":23816,"uid":1000,"version":"v14.19.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/src/index.js:44:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-03-07T11:43:09.255Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/smita/RegisterUser/userRegistrationNlogin/src/index.js","function":null,"line":44,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/src/index.js:44:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Mon Mar 07 2022 17:13:21 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[2.85,3.1,2.19],"uptime":33256.33},"process":{"argv":["node","/home/smita/RegisterUser/userRegistrationNlogin/src/index.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18432599,"external":20693585,"heapTotal":157261824,"heapUsed":134145232,"rss":210001920},"pid":23941,"uid":1000,"version":"v14.19.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/src/index.js:44:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-03-07T11:43:21.296Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/smita/RegisterUser/userRegistrationNlogin/src/index.js","function":null,"line":44,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (net.js:1331:16)
+    at listenInCluster (net.js:1379:12)
+    at Server.listen (net.js:1465:7)
+    at Function.listen (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js:618:24)
+    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/src/index.js:44:5)
+    at Module._compile (internal/modules/cjs/loader.js:1085:14)
+    at Module._compile (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:136:24)
+    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)
+    at Object.newLoader [as .js] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:141:7)
+    at Module.load (internal/modules/cjs/loader.js:950:32) {"date":"Mon Mar 07 2022 17:13:29 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-98,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[2.73,3.06,2.18],"uptime":33264.23},"process":{"argv":["node","/home/smita/RegisterUser/userRegistrationNlogin/src/index.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18432599,"external":20693585,"heapTotal":156737536,"heapUsed":134353488,"rss":208359424},"pid":24047,"uid":1000,"version":"v14.19.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (net.js:1331:16)\n    at listenInCluster (net.js:1379:12)\n    at Server.listen (net.js:1465:7)\n    at Function.listen (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js:618:24)\n    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/src/index.js:44:5)\n    at Module._compile (internal/modules/cjs/loader.js:1085:14)\n    at Module._compile (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:136:24)\n    at Module._extensions..js (internal/modules/cjs/loader.js:1114:10)\n    at Object.newLoader [as .js] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js:141:7)\n    at Module.load (internal/modules/cjs/loader.js:950:32)","timestamp":"2022-03-07T11:43:29.195Z","trace":[{"column":16,"file":"net.js","function":"Server.setupListenHandle [as _listen2]","line":1331,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"net.js","function":"listenInCluster","line":1379,"method":null,"native":false},{"column":7,"file":"net.js","function":"Server.listen","line":1465,"method":"listen","native":false},{"column":24,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"/home/smita/RegisterUser/userRegistrationNlogin/src/index.js","function":null,"line":44,"method":null,"native":false},{"column":14,"file":"internal/modules/cjs/loader.js","function":"Module._compile","line":1085,"method":"_compile","native":false},{"column":24,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"internal/modules/cjs/loader.js","function":"Module._extensions..js","line":1114,"method":".js","native":false},{"column":7,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"internal/modules/cjs/loader.js","function":"Module.load","line":950,"method":"load","native":false}]}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-08T06:21:48.440Z"}
+error: 
+    status - 500 
+    message - Error: "lName" is required
+    at new exports.ValidationError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@hapi/joi/lib/errors.js:246:9)
+    at Object.exports.process (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@hapi/joi/lib/errors.js:189:29)
+    at Object.internals.entry (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@hapi/joi/lib/validator.js:140:26)
+    at Object.exports.entry (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@hapi/joi/lib/validator.js:26:30)
+    at internals.Base.validate (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@hapi/joi/lib/base.js:534:26)
+    at newUserValidator (/home/smita/RegisterUser/userRegistrationNlogin/src/validators/user.validator.js:10:35)
+    at Layer.handle [as handle_request] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/router/route.js:137:13) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T06:29:20.019Z"}
+error: 
+    status - 500 
+    message - Error: password doesnt match
+    at _callee2$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/user.service.js:25:13)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-08T06:34:14.625Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'email' of null
+    at _callee2$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/user.service.js:19:32)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-08T06:34:29.112Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-10T06:40:02.201Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-10T06:43:12.576Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-10T06:43:43.080Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-10T06:45:41.766Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-10T06:52:38.765Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-10T06:53:41.841Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-11T07:00:53.612Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: UserDB.users index: email_1 dup key: { email: "smita.shinde317@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-11T07:05:02.974Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/smita/RegisterUser/userRegistrationNlogin/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-11T07:05:03.025Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/smita/RegisterUser/userRegistrationNlogin/src/controllers/note.controller.js:12:41)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/smita/RegisterUser/userRegistrationNlogin/src/controllers/note.controller.js:10:21) 
+    url - /api/v1//note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-11T07:13:37.994Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'id' of undefined
+    at _callee$ (/home/smita/RegisterUser/userRegistrationNlogin/src/controllers/note.controller.js:12:41)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12
+    at addNote (/home/smita/RegisterUser/userRegistrationNlogin/src/controllers/note.controller.js:10:21) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-11T07:13:48.321Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-16T06:18:06.973Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/622af6dab800971eaf70f529 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:37:03.981Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'UserID' of undefined
+    at _callee5$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:39:58)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.deleteNote (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:38:24) 
+    url - /api/v1/note/622af6dab800971eaf70f529 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:40:37.366Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:45:34.039Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:46:26.193Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:47:12.877Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:48:08.429Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:49:20.528Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:49:37.123Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:50:03.779Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:50:22.615Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:51:01.787Z"}
+error: uncaughtException: /home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js: Unexpected token, expected "," (45:64)
+
+[0m [90m 43 |[39m [90m// archeive[39m[0m
+[0m [90m 44 |[39m [36mexport[39m [36mconst[39m archiveNote [33m=[39m [36masync[39m (id[33m,[39m body) [33m=>[39m {[0m
+[0m[31m[1m>[22m[39m[90m 45 |[39m     [36mconst[39m data [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfind({ _id[33m:[39m id[33m,[39m [33mUserID[39m[33m:[39m body }[33m,[39m $set{ isArchived[33m:[39m [36mtrue[39m })[33m;[39m[0m
+[0m [90m    |[39m                                                                 [31m[1m^[22m[39m[0m
+[0m [90m 46 |[39m     [36mreturn[39m data[33m;[39m[0m
+[0m [90m 47 |[39m }[0m
+[0m [90m 48 |[39m[0m
+SyntaxError: Unexpected token, expected "," (45:64)
+    at Parser._raise (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/error.js:150:45)
+    at Parser.raiseWithData (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/error.js:145:17)
+    at Parser.raise (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/error.js:89:17)
+    at Parser.unexpected (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/util.js:174:16)
+    at Parser.expect (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/util.js:150:28)
+    at Parser.parseCallExpressionArguments (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/expression.js:987:14)
+    at Parser.parseCoverCallAndAsyncArrowHead (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/expression.js:862:29)
+    at Parser.parseSubscript (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/expression.js:747:19) {"date":"Thu Mar 17 2022 12:21:45 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":64,"index":1129,"line":45},"pos":1129,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[1.88,1.73,2.01],"uptime":15271.88},"process":{"argv":["node","/home/smita/RegisterUser/userRegistrationNlogin/src/index.js"],"cwd":"/home/smita/RegisterUser/userRegistrationNlogin","execPath":"/usr/bin/node","gid":1000,"memoryUsage":{"arrayBuffers":18280518,"external":22189882,"heapTotal":152559616,"heapUsed":134349296,"rss":209620992},"pid":15478,"uid":1000,"version":"v14.19.0"},"stack":"SyntaxError: Unexpected token, expected \",\" (45:64)\n    at Parser._raise (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/error.js:150:45)\n    at Parser.raiseWithData (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/error.js:145:17)\n    at Parser.raise (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/error.js:89:17)\n    at Parser.unexpected (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/util.js:174:16)\n    at Parser.expect (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/util.js:150:28)\n    at Parser.parseCallExpressionArguments (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/expression.js:987:14)\n    at Parser.parseCoverCallAndAsyncArrowHead (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/expression.js:862:29)\n    at Parser.parseSubscript (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/expression.js:747:19)","timestamp":"2022-03-17T06:51:45.225Z","trace":[{"column":45,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/expression.js","function":"Parser.parseCallExpressionArguments","line":987,"method":"parseCallExpressionArguments","native":false},{"column":29,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/expression.js","function":"Parser.parseCoverCallAndAsyncArrowHead","line":862,"method":"parseCoverCallAndAsyncArrowHead","native":false},{"column":19,"file":"/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/parser/src/parser/expression.js","function":"Parser.parseSubscript","line":747,"method":"parseSubscript","native":false}]}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:52:47.607Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:54:13.944Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:54:54.966Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:09:01.215Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:12:38.814Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:22:43.538Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:23:02.517Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:25:17.932Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:25:44.139Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:26:53.834Z"}
+error: 
+      status - 16410
+      message - FieldPath field names may not start with '$'. Consider using $getField or $setField. 
+      url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-17T11:29:37.344Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 16410
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/smita/RegisterUser/userRegistrationNlogin/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:29:37.375Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:37:50.099Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee6$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:45:49)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.archiveNote (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:44:25) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:39:11.008Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee6$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:45:49)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.archiveNote (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:44:25) 
+    url - /api/v1/note/isarchive/622af5770c29451978c33515 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:45:13.947Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/622af5770c29451978c33515 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:45:38.282Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-23T06:27:25.586Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-24T03:13:57.679Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-24T06:15:25.776Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-25T06:25:12.557Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-25T06:25:12.681Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-25T06:25:12.980Z"}

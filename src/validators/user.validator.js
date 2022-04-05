@@ -21,12 +21,12 @@ export const noteValidator = (req, res, next) => {
     Title: Joi.string().min(4).required(),
     Descreption: Joi.string().min(4).required(),
     color: Joi.string()
+
   });
   const { error, value } = schema.validate(req.body);
   if (error) {
     next(error);
   } else {
-    req.validatedBody = value;
     next();
   }
 };

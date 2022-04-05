@@ -1,0 +1,104 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "version": "V1",
+    "title": " Google Keep ",
+    "description": "This is the replica of google keep.User can register and login , User can do request for forgot password and he can reset password using that shared credentionals . User can loging and perform node CRUD."
+  },
+  "host": "localhost:6000",
+  "basePath": "/api/v1/",
+  "tags": [
+    {
+      "name": "Google keep using express CLI",
+      "description": "This is the replica of google keep"
+    }
+  ],
+  "schemes": ["http"],
+  "consumes": ["application/json"],
+  "produces": ["application/json"],
+  "paths": {
+    "/users": {
+      "post": {
+        "tags": ["User"],
+        "description": "Register user...",
+        "parameters": [
+          {
+            "name": "Register new name",
+            "in": "body",
+            "description": "Register user",
+            "schema": {
+              "$ref": "#/definitions/User"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "201": {
+            "description": "User created successfully"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    },
+    "/users/login": {
+      "get": {
+        "tags": ["User"],
+        "description": "User login",
+        "parameters": [
+          {
+            "name": "login user",
+            "in": "body",
+            "description": "User login",
+            "schema": {
+              "$ref": "#/definitions/login"
+            }
+          }
+        ],
+        "produces": ["application/json"],
+        "responses": {
+          "201": {
+            "description": "sucessfully logged in"
+          },
+          "404": {
+            "description": "email or password doesn't match"
+          },
+          "500": {
+            "description": "Internal server error"
+          }
+        }
+      }
+    }
+  },
+  "definitions": {
+    "User": {
+      "type": "object",
+      "properties": {
+        "fname": {
+          "type": "string"
+        },
+        "lname": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    },
+    "login": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

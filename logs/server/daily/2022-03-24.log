@@ -1,0 +1,26 @@
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-24T03:10:23.521Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-24T03:10:23.550Z"}
+info: Connected to the database. {"timestamp":"2022-03-24T03:10:23.566Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-24T03:13:39.053Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-24T03:13:39.086Z"}
+info: Connected to the database. {"timestamp":"2022-03-24T03:13:39.105Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-24T03:13:57.049Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-24T03:13:57.080Z"}
+info: Connected to the database. {"timestamp":"2022-03-24T03:13:57.095Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-24T03:13:57.679Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-24T06:15:25.517Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-24T06:15:25.551Z"}
+info: Connected to the database. {"timestamp":"2022-03-24T06:15:25.571Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-24T06:15:25.776Z"}

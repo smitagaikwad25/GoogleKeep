@@ -1,0 +1,18 @@
+info: ::1 - - [11/Mar/2022:07:05:03 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Mar/2022:07:05:09 +0000] "POST /api/v1/users HTTP/1.1" 201 320 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Mar/2022:07:05:27 +0000] "POST /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Mar/2022:07:05:33 +0000] "GET /api/v1/users/login HTTP/1.1" 200 272 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Mar/2022:07:08:39 +0000] "POST /api/v1//note HTTP/1.1" 201 253 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Mar/2022:07:10:54 +0000] "POST /api/v1//note HTTP/1.1" 201 253 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Mar/2022:07:13:38 +0000] "POST /api/v1//note HTTP/1.1" 500 73 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Mar/2022:07:13:48 +0000] "POST /api/v1/note HTTP/1.1" 500 73 "-" "PostmanRuntime/7.28.4"
+
+info: ::1 - - [11/Mar/2022:07:14:34 +0000] "POST /api/v1/note HTTP/1.1" 201 253 "-" "PostmanRuntime/7.28.4"
+

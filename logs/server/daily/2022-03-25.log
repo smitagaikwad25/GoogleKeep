@@ -1,0 +1,17 @@
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-25T06:25:12.538Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-03-25T06:25:12.557Z"}
+info: Connected to the database. {"timestamp":"2022-03-25T06:25:12.590Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-25T06:25:12.681Z"}
+error: 
+    status - 500 
+    message - ValidationError: "fName" must be a string 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-25T06:25:12.980Z"}

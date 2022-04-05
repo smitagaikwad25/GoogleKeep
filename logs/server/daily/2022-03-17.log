@@ -1,0 +1,510 @@
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:24:56.842Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:24:56.857Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:24:56.915Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:25:45.041Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:25:45.058Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:25:45.076Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:25:50.651Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:25:50.662Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:25:50.681Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:26:16.646Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:26:16.665Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:26:16.684Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:26:44.832Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:26:44.845Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:26:44.856Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:29:52.603Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:29:52.670Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:29:52.693Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:30:23.126Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:30:23.141Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:30:23.156Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:30:43.778Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:30:43.794Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:30:43.813Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:31:32.730Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:31:32.746Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:31:32.761Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:33:26.403Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:33:26.418Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:33:26.428Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:34:11.663Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:34:11.677Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:34:11.689Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:34:35.464Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:34:35.481Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:34:35.492Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:35:00.526Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:35:00.540Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:35:00.553Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:36:47.107Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:36:47.121Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:36:47.135Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:36:51.349Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:36:51.368Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:36:51.381Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/622af6dab800971eaf70f529 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:37:03.981Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:37:30.687Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:37:30.702Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:37:30.717Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:38:38.616Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:38:38.633Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:38:38.645Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:38:48.196Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:38:48.209Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:38:48.220Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:39:08.649Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:39:08.665Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:39:08.677Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:40:00.022Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:40:00.042Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:40:00.052Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:40:28.602Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:40:28.620Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:40:28.632Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read property 'UserID' of undefined
+    at _callee5$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:39:58)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.deleteNote (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:38:24) 
+    url - /api/v1/note/622af6dab800971eaf70f529 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:40:37.366Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:41:29.213Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:41:29.232Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:41:29.250Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:41:45.882Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:41:45.899Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:41:45.911Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:42:02.914Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:42:02.933Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:42:02.951Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:42:14.482Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:42:14.496Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:42:14.510Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:42:19.334Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:42:19.356Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:42:19.367Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:43:27.309Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:43:27.329Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:43:27.340Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:45:34.039Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:46:22.282Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:46:22.302Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:46:22.312Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:46:26.193Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:47:11.732Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:47:11.749Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:47:11.759Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:47:12.877Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:48:06.694Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:48:06.717Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:48:06.730Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:48:08.429Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:49:20.177Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:49:20.194Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:49:20.219Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:49:20.528Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:49:36.574Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:49:36.590Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:49:36.603Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:49:37.123Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:50:00.577Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:50:00.592Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:50:00.607Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:50:03.779Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:50:20.212Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:50:20.235Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:50:20.245Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:50:22.615Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:50:37.578Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:50:37.598Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:50:37.612Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:50:50.633Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:50:50.647Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:50:50.658Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:50:59.007Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:50:59.028Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:50:59.038Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:51:01.787Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:52:47.233Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:52:47.260Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:52:47.273Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:52:47.607Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:53:54.794Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:53:54.826Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:53:54.844Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:54:10.616Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:54:10.634Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:54:10.652Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:54:13.944Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T06:54:47.134Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T06:54:47.151Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T06:54:47.168Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T06:54:54.966Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:09:01.215Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:12:33.324Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:12:33.350Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:12:33.364Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:12:38.814Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:22:39.615Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:22:39.634Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:22:39.649Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:22:43.538Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:22:59.593Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:22:59.608Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:22:59.619Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:23:02.517Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:25:17.932Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:25:41.439Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:25:41.458Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:25:41.469Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:25:44.139Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:26:37.753Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:26:37.764Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:26:37.775Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:26:44.333Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:26:44.348Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:26:44.362Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:26:48.779Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:26:48.802Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:26:48.812Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:26:53.834Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:28:57.971Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:28:57.986Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:28:57.998Z"}
+error: 
+      status - 16410
+      message - FieldPath field names may not start with '$'. Consider using $getField or $setField. 
+      url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-17T11:29:37.344Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 16410
+    at new NodeError (internal/errors.js:322:7)
+    at ServerResponse.writeHead (_http_server.js:259:11)
+    at ServerResponse.writeHead (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/on-headers/index.js:44:26)
+    at ServerResponse._implicitHeader (_http_server.js:250:8)
+    at write_ (_http_outgoing.js:711:9)
+    at ServerResponse.end (_http_outgoing.js:825:5)
+    at ServerResponse.send (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/response.js:221:10)
+    at ServerResponse.json (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/response.js:267:15)
+    at appErrorHandler (/home/smita/RegisterUser/userRegistrationNlogin/src/middlewares/error.middleware.js:36:26)
+    at Layer.handle_error (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/express/lib/router/layer.js:71:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:29:37.375Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:37:43.977Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:37:44.005Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:37:44.015Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:37:50.099Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:38:21.335Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:38:21.358Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:38:21.377Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:38:45.847Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:38:45.870Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:38:45.886Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:39:10.248Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:39:10.274Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:39:10.286Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee6$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:45:49)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.archiveNote (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:44:25) 
+    url - /api/v1/note/isarchive/6232d8a0e3a0ad3597039d0a%0A 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:39:11.008Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:43:44.722Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:43:44.742Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:43:44.757Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:44:08.562Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:44:08.595Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:44:08.613Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:44:23.070Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:44:23.087Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:44:23.101Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee6$ (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:45:49)
+    at tryCatch (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:294:22)
+    at Generator.next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/regenerator-runtime/runtime.js:119:21)
+    at asyncGeneratorStep (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at Object.archiveNote (/home/smita/RegisterUser/userRegistrationNlogin/src/services/note.service.js:44:25) 
+    url - /api/v1/note/isarchive/622af5770c29451978c33515 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:45:13.947Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-03-17T11:45:36.620Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-03-17T11:45:36.670Z"}
+info: Connected to the database. {"timestamp":"2022-03-17T11:45:36.690Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/isarchive/622af5770c29451978c33515 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-17T11:45:38.282Z"}
