@@ -1,0 +1,24 @@
+info: ::1 - - [16/Aug/2022:11:44:12 +0000] "GET /api/v1/note HTTP/1.1" 200 739 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:11:46:21 +0000] "POST /api/v1/note HTTP/1.1" 201 262 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:11:46:24 +0000] "GET /api/v1/note HTTP/1.1" 200 949 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:11:52:59 +0000] "POST /api/v1/note HTTP/1.1" 500 103 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:11:53:10 +0000] "GET /api/v1/note HTTP/1.1" 200 966 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:11:53:22 +0000] "PUT /api/v1/note/62e894aa693b61addfe11a06 HTTP/1.1" 202 248 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:11:55:58 +0000] "DELETE /api/v1/note/62e89467693b61addfe11a03 HTTP/1.1" 200 45 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:11:56:34 +0000] "DELETE /api/v1/note/62e89467693b61addfe11a03 HTTP/1.1" 200 45 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:11:57:31 +0000] "DELETE /api/v1/note/62e89467693b61addfe11a03 HTTP/1.1" 200 45 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:12:03:18 +0000] "POST /api/v1/note HTTP/1.1" 201 275 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:12:03:23 +0000] "GET /api/v1/note HTTP/1.1" 200 879 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [16/Aug/2022:12:03:44 +0000] "PUT /api/v1/note/62fb8786b1d7c3386f3269b7 HTTP/1.1" 202 275 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+

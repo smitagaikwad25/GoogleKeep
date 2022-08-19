@@ -2,7 +2,11 @@ import { expect } from 'chai';
 import request from 'supertest';
 import mongoose from 'mongoose';
 
+import HttpStatus from 'http-status-codes';
+
 import app from '../../src/index';
+
+let jwtToken;
 
 describe('User APIs Test', () => {
   before((done) => {
@@ -26,16 +30,72 @@ describe('User APIs Test', () => {
     done();
   });
 
-  describe('GET /users', () => {
-    it('should return empty array', (done) => {
+  describe('POST /registration', () => {
+    it('given new user when added should return status 201', (done) => {
+      const userdetails = {
+        fName: 'Smita',
+        lName: 'shinde',
+        email: 'sm@gmail.com',
+        password: '1234566'
+      };
       request(app)
-        .get('/api/v1/users')
+        .post('/api/v1/users')
+        .send(userdetails)
         .end((err, res) => {
-          expect(res.statusCode).to.be.equal(200);
-          expect(res.body.data).to.be.an('array');
+          expect(res.statusCode).to.be.equal(HttpStatus.CREATED);
+          done();
+        });
+    });
 
+    it('given new user when added should return status 400', (done) => {
+      const userdetails = {
+        fName: 1234,
+        lName: 'shinde',
+        email: 'sm@gmail.com',
+        password: '1234566'
+      };
+      request(app)
+        .post('/api/v1/users')
+        .send(userdetails)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.BAD_REQUEST);
           done();
         });
     });
   });
+
+  describe('POST /login', () => {
+    it('given new user when added should return status 200', (done) => {
+      const userdetails = {
+        email: 'sm@gmail.com',
+        password: '1234566'
+      };
+      request(app)
+        .post('/api/v1/users/login')
+        .send(userdetails)
+        .end((err, res) => {
+          jwtToken = res.body.data
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+
+
+  describe('POST /note', () => {
+    it('given new user when added should return status 200', (done) => {
+      const userdetails = {
+        Title: 'sm@gmail.com',
+        Dest: '1234566'
+      };
+      request(app)
+        .post('/api/v1/users/login')
+        .send(userdetails)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.OK);
+          done();
+        });
+    });
+  });
+ 
 });

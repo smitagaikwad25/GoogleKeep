@@ -1,0 +1,26 @@
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/62e7edbcc0a3067300690af3 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-12T03:19:52.717Z"}
+error: 
+    status - 500 
+    message - Error: Cast to undefined failed for value undefined at path "undefined"
+    at new MongooseError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/mongooseError.js:7:1)
+    at new CastError (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/error/cast.js:31:7)
+    at model.Query.exec (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/home/smita/RegisterUser/userRegistrationNlogin/node_modules/mongoose/lib/query.js:4592:15)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5) 
+    url - /api/v1/note/62e7edbcc0a3067300690af3 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-08-12T03:22:43.887Z"}

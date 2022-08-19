@@ -1,0 +1,6 @@
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:45:12.161Z"}
+error: Could not connect to the reddis database. connect ECONNREFUSED 127.0.0.1:6379 {"address":"127.0.0.1","code":"ECONNREFUSED","errno":-111,"port":6379,"stack":"Error: connect ECONNREFUSED 127.0.0.1:6379\n    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1159:16)","syscall":"connect","timestamp":"2022-08-11T11:45:12.180Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:45:12.742Z"}
+info: Server started at http://localhost:8000/api/v1/ {"timestamp":"2022-08-11T11:46:26.368Z"}
+info: Connected to the  reddis database. {"timestamp":"2022-08-11T11:46:26.392Z"}
+info: Connected to the database. {"timestamp":"2022-08-11T11:46:26.408Z"}

@@ -1,0 +1,36 @@
+info: ::1 - - [12/Aug/2022:03:06:33 +0000] "GET /api/v1/note HTTP/1.1" 200 1017 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:06:43 +0000] "GET /api/v1/note HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:19:52 +0000] "PUT /api/v1/note/62e7edbcc0a3067300690af3 HTTP/1.1" 500 103 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:22:22 +0000] "GET /api/v1/note HTTP/1.1" 304 - "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:22:44 +0000] "PUT /api/v1/note/62e7edbcc0a3067300690af3 HTTP/1.1" 500 103 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:24:24 +0000] "PUT /api/v1/note/62e7edbcc0a3067300690af3 HTTP/1.1" 202 248 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:24:47 +0000] "PUT /api/v1/note/62e7edbcc0a3067300690af3 HTTP/1.1" 202 259 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:24:56 +0000] "GET /api/v1/note HTTP/1.1" 200 962 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:25:51 +0000] "PUT /api/v1/note/62e7edbcc0a3067300690af3 HTTP/1.1" 202 270 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:25:59 +0000] "GET /api/v1/note HTTP/1.1" 200 973 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:30:28 +0000] "DELETE /api/v1/note/62e7edbcc0a3067300690af3 HTTP/1.1" 200 45 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:30:38 +0000] "GET /api/v1/note HTTP/1.1" 200 755 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:48:26 +0000] "PUT /api/v1/note/62e89467693b61addfe11a03 HTTP/1.1" 202 301 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:03:48:34 +0000] "GET /api/v1/note HTTP/1.1" 200 769 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:05:00:46 +0000] "PUT /api/v1/note/62e89467693b61addfe11a03 HTTP/1.1" 202 278 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:05:00:53 +0000] "GET /api/v1/note HTTP/1.1" 200 746 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:07:09:31 +0000] "PUT /api/v1/note/62f4ec6d95271c7ef7b4b1ae HTTP/1.1" 202 248 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+
+info: ::1 - - [12/Aug/2022:07:09:38 +0000] "PUT /api/v1/note/isarchive/62e89467693b61addfe11a03 HTTP/1.1" 200 279 "http://localhost:3000/" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36"
+

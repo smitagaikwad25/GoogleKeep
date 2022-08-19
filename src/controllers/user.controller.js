@@ -38,6 +38,8 @@ export const userLogin = async (req, res, next) => {
       })
 
     } else {
+      console.log("After success")
+
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
@@ -52,6 +54,56 @@ export const userLogin = async (req, res, next) => {
   }
 
 }
+
+
+export const forgotpassword = async (req, res, next) => {
+  try {
+    const data = await UserService.forgotpassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: "reset password link sent sucessfully"
+    })
+
+  } catch (error) {
+    next(error);
+
+  }
+
+}
+
+
+
+
+
+
+/**
+ * Controller to  login a user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+export const resetPassword = async (req, res, next) => {
+  try {
+    const userCredential = {
+      password: req.body.password,
+      UserID: req.body.data.id
+    };
+    const data = await UserService.resetPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      message: "reset Password is sucessfully done"
+    });
+
+  } catch (error) {
+    next(error);
+
+  }
+
+
+}
+
 
 
 

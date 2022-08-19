@@ -13,7 +13,8 @@ export const userAuth = async (req, res, next) => {
   try {
     let bearerToken = req.header('Authorization');
 
-    console.log("bearerToken befor spliting----->", bearerToken)
+    console.log('bearerToken befor spliting----->', bearerToken);
+
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
@@ -22,20 +23,20 @@ export const userAuth = async (req, res, next) => {
 
     bearerToken = bearerToken.split(' ')[1];
 
-    console.log("bearerToken after spliting---->", bearerToken)
+    console.log('bearerToken after spliting---->', bearerToken);
     jwt.verify(bearerToken, process.env.SECRET_KEY, (err, verifiedToken) => {
       if (err) {
         throw {
-          code: HttpStatus.BAD_REQUEST,
+          code: HttpStatus.UNAUTHORIZED,
           message: 'Authorization token incorrect'
         };
       } else {
-        console.log("after varification ---->", verifiedToken)
-        req.body['data'] = verifiedToken;
+        // console.log("after varification ---->", verifiedToken)
+        // req.body['data'] = verifiedToken;
+        req.body.UserID = verifiedToken.id;
         next();
       }
-    }
-    );
+    });
   } catch (error) {
     next(error);
   }
